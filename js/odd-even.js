@@ -8,3 +8,14 @@ function randomNumber(min, max){
 }
 const cpuNumber = randomNumber();
 console.log(cpuNumber);
+
+//* Funzione per stabilire se un numero è pari o dispari
+function isEven(sum){
+    if(sum % 2 == 0) {
+        console.log('Il risultato è pari');
+    }else{
+    console.log('Il risultato è dispari');
+    }
+}
+const result = isEven(4);
+console.log(result);
